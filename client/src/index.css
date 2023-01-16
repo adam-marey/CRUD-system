@@ -13,10 +13,38 @@ code {
 }
 
 .navbar-brand {
-  color: #576f72;
+  color: #b2b1b9;
 }
 
 .navbar-brand img {
   width: 150px;
   margin-right: 10px;
+}
+
+.btn {
+  font-size: 15px;
+}
+
+.btn-primary,
+.bg-primary {
+  background-color: #b2b1b9 !important;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #b2b1b9;
+  opacity: 0.9;
+}
+
+.btn-secondary {
+  background-color: #b2b1b9;
+}
+
+.btn-secondary:hover {
+  background-color: #b2b1b9;
+  opacity: 0.9;
+}
+
+.icon {
+  margin-right: 5px;
 }
