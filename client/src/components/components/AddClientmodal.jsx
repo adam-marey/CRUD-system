@@ -43,7 +43,7 @@ const AddClientmodal = () => {
 
   return (
     <>
-    <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addClientModal">
+    <button type="button" className="button-50" data-bs-toggle="modal" data-bs-target="#addClientModal">
   <div className='d-flex align-items-center'>
     <FaUser className='icon' />
     <div>Add Client</div>

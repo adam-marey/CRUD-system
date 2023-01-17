@@ -8,7 +8,7 @@ export default function ProjectCard({ project }) {
               {project.name}
             </h5>
 
-            <a className="btn btn-light" href={`/projects/${project.id}`}>
+            <a className="view" href={`/projects/${project.id}`}>
               View
             </a>
           </div>

@@ -32,7 +32,7 @@ const ClientRow = ({ client }) => {
         {client.phone}
       </td>
       <td>
-        <button className="btn btn-danger btn-sm" onClick={deleteClient}>
+        <button className="btn-trash" onClick={deleteClient}>
           <FaTrashAlt />
         </button>
       </td>

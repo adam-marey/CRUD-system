@@ -2,11 +2,18 @@ import React from 'react';
 import logo from '../assets/logo.png';
 const Header = () => {
   return (
-    <nav className="navber bg-light mb-4 p-0">
+    <nav className="navbar bg-light mb-4 p-0.5 ">
       <div className="container">
         <a className="navbar-brand" href="/">
           <div className="d-flex">
-            <img src={logo} alt="logo" className="mr-2" />
+            <img
+              src={logo}
+              alt="logo"
+              className="mr-2"
+              width="50"
+              height="100"
+            />
+            EZ-Manage
           </div>
         </a>
       </div>
