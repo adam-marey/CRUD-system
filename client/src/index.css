@@ -27,21 +27,21 @@ code {
 
 .btn-primary,
 .bg-primary {
-  background-color: #b2b1b9 !important;
+  background-color: #c6b497 !important;
   border: none;
 }
 
 .btn-primary:hover {
-  background-color: #b2b1b9;
+  background-color: #c6b497;
   opacity: 0.9;
 }
 
 .btn-secondary {
-  background-color: #b2b1b9;
+  background-color: #8f384d;
 }
 
 .btn-secondary:hover {
-  background-color: #b2b1b9;
+  background-color: #c6b497;
   opacity: 0.9;
 }
 
