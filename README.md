@@ -2,6 +2,13 @@
 ![Screenshot 2023-01-21 at 2 01 29 PM](https://user-images.githubusercontent.com/83997567/213887012-88af6ea9-f5a0-4460-acaf-e6e42905b617.png)
 
 
+<img width="1481" alt="Screenshot 2023-01-21 at 1 56 42 PM" src="https://user-images.githubusercontent.com/83997567/213887075-e0c9068d-015d-4cb3-8870-60e6bef1ea6f.png">
+
+<img width="1497" alt="Screenshot 2023-01-21 at 1 57 12 PM" src="https://user-images.githubusercontent.com/83997567/213887123-ac8d6d0f-f9fe-4b4b-aa28-f7c6ef24c29d.png">
+<img width="1484" alt="Screenshot 2023-01-21 at 1 57 41 PM" src="https://user-images.githubusercontent.com/83997567/213887130-1ce52271-10d2-4467-b166-ab8246abba06.png">
+
+
+
 
 The project is a management system for keeping track of projects and clients. It is built using React for the frontend, Apollo Client for handling GraphQL requests, and Bootstrap for styling. The backend is built using Express and GraphQL for the database.
 
@@ -38,6 +45,18 @@ The project is a management system for keeping track of projects and clients. It
 ## Deployment
 
 - You can use any hosting service that support Node.js and GraphQL
+
+## Disclaimer
+
+- This is a work in progress, there might be bugs and glitches, also this is not fully tested yet.
+
+## Stretch Goals
+
+- Implement user authentication and authorization to restrict access to certain features based on user roles.
+- Integrate with a calendar library to add a project schedule feature.
+- Add a feature to send email notifications to clients when a project status changes.
+Implement pagination for displaying large numbers of projects and clients.
+
 
 ## issues or bugs?
 
