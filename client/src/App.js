@@ -32,7 +32,7 @@ const client = new ApolloClient({
   uri: 'http://localhost:4000/graphql', 
   cache,
 })
-function App() {
+const  App = () => {
   return (
     <>
     <ApolloProvider client={client}>
