@@ -1,4 +1,6 @@
 ## Overview
+![Screenshot 2023-01-21 at 2 01 29 PM](https://user-images.githubusercontent.com/83997567/213887012-88af6ea9-f5a0-4460-acaf-e6e42905b617.png)
+
 
 
 The project is a management system for keeping track of projects and clients. It is built using React for the frontend, Apollo Client for handling GraphQL requests, and Bootstrap for styling. The backend is built using Express and GraphQL for the database.
