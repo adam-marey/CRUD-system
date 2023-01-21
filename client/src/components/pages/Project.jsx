@@ -15,23 +15,29 @@ export default function Project() {
 
   return (
     <>
+    <div>
       {!loading && !error && (
         <div className='mx-auto w-75 card p-5'>
           <Link to='/' className='view btn-sm w-20 d-inline ms-auto'>
             Back
           </Link>
 
-          <h1>{data.project.name}</h1>
+          <h1 className='project-title'>{data.project.name}</h1>
           <p>{data.project.description}</p>
 
-          <h5 className='mt-3'>Project Status</h5>
+          <h5 className='project-title'>Project Status</h5>
           <p className='lead'>{data.project.status}</p>
           <ClientInfo client={data.project.client} />
           <EditProjectForm project={data.project}/>
           <DeleteProjectButton projectId={data.project.id} />
         </div>
       )}
+      </div>
+      <br />
+      <br />
+      <div>
       <Footer />
+      </div>
     </>
   );
 }

@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom'
-import Header from "./components/components/Header";
 import { ApolloProvider, ApolloClient, InMemoryCache} from '@apollo/client'
 import Home from './components/pages/Home';
 import NotFound from './components/pages/NotFound';
@@ -7,6 +6,8 @@ import Project from './components/pages/Project';
 import Welcome from './components/pages/Welcome';
 import Navbar from './components/components/Navbar';
 import Footer from './components/components/Footer';
+import ProjectsView from './components/pages/ProjectsView';
+import ClientsView from './components/pages/ClientsView';
 const cache = new InMemoryCache({
   typePolicies: {
     Query: {
@@ -42,6 +43,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/welcome' element={<Welcome />} />
+        <Route path='/projectsview' element={<ProjectsView />} />
+        <Route path='/clientview' element={<ClientsView />} />
         <Route path='/projects/:id' element={<Project />} />
         <Route path='*' element={<NotFound />} />
       </Routes>

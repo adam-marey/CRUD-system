@@ -199,3 +199,13 @@ footer {
   color: #7f8487;
   text-align: center;
 }
+.project-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #c6b497;
+}
+.form-label {
+  font-size: 20px;
+  font-weight: 700;
+  color: #8b7e74;
+}
