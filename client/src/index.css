@@ -190,3 +190,12 @@ code {
   font-weight: 500;
   color: #c6b497;
 }
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #dddddd;
+  color: #7f8487;
+  text-align: center;
+}

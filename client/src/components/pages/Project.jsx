@@ -5,6 +5,7 @@ import { GET_PROJECT } from '../queries/projectQueries';
 import ClientInfo from '../components/ClientInfo';
 import DeleteProjectButton from '../components/DeleteProjectButton';
 import EditProjectForm from '../components/EditProjectForm';
+import Footer from '../components/Footer';
 export default function Project() {
   const { id } = useParams();
   const { loading, error, data } = useQuery(GET_PROJECT, { variables: { id } });
@@ -30,6 +31,7 @@ export default function Project() {
           <DeleteProjectButton projectId={data.project.id} />
         </div>
       )}
+      <Footer />
     </>
   );
 }

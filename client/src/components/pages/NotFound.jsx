@@ -1,5 +1,6 @@
 import { FaExclamationTriangle } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import Footer from '../components/Footer';
 const NotFound = () => {
   return (
     <div className="d-flex flex-column justify-content-center align-items-center mt-5">
@@ -10,6 +11,7 @@ const NotFound = () => {
       <Link to="/" className="btn btn-primary">
         Go BACK
       </Link>
+      <Footer />
     </div>
   );
 };

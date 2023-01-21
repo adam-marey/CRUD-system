@@ -6,6 +6,7 @@ import NotFound from './components/pages/NotFound';
 import Project from './components/pages/Project';
 import Welcome from './components/pages/Welcome';
 import Navbar from './components/components/Navbar';
+import Footer from './components/components/Footer';
 const cache = new InMemoryCache({
   typePolicies: {
     Query: {
@@ -47,6 +48,7 @@ function App() {
     </div>
     </Router>
     </ApolloProvider>
+        <Footer />
     </>
   );
 }

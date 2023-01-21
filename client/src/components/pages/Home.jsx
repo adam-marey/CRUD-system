@@ -3,6 +3,7 @@ import AddClientmodal from '../components/AddClientmodal'
 import AddProjectModal from '../components/AddProjectModal'
 import Projects from '../components/Projects'
 import Clients from '../components/Clients'
+import Footer from '../components/Footer'
 const Home = () => {
   return (
     <>
@@ -13,6 +14,7 @@ const Home = () => {
       <Projects />
       <Clients />
       <hr />
+      <Footer />
     </>
   )
 }
