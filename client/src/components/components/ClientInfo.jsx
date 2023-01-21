@@ -15,6 +15,12 @@ export default function ClientInfo({ client }) {
           <FaPhone className='icon' /> {client.phone}
         </li>
       </ul>
+      <hr />
+      <h3>Progress</h3>
+<div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar w-75"></div>
+</div>
+
     </>
   );
 }
