@@ -4,6 +4,8 @@ import { ApolloProvider, ApolloClient, InMemoryCache} from '@apollo/client'
 import Home from './components/pages/Home';
 import NotFound from './components/pages/NotFound';
 import Project from './components/pages/Project';
+import Welcome from './components/pages/Welcome';
+import Navbar from './components/components/Navbar';
 const cache = new InMemoryCache({
   typePolicies: {
     Query: {
@@ -33,10 +35,12 @@ function App() {
     <>
     <ApolloProvider client={client}>
       <Router>
-      <Header />
+        <Navbar />
+      {/* <Header /> */}
       <div className="container">
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/welcome' element={<Welcome />} />
         <Route path='/projects/:id' element={<Project />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
